@@ -17,8 +17,8 @@
       </div>
 
       <script>
-        $(function(){
-          $("#nav-placeholder").load("navbarRef.html");
+        $.get("navigation.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
         });
       </script>
 
