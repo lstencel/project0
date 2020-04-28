@@ -4,12 +4,39 @@ h1 {
 }
 
 p {
-    color: red;
+
+      color: red;
+
 }
 
 body {
 
-        background-color: #331e1e;
-      /*background-color: #4d2d2d;*/
+        /*border-top-style: double;*/
+        background-color: #08363B;
+        color: white;
+        text-align: center;
+}
 
+table {
+
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    font-size: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 38%;
+    align-self: center;
+    align-items: center;
+    justify: center;
+    justify-content: center;
 }
