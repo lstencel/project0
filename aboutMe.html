@@ -17,9 +17,9 @@
         </div>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
-        <script>
-          $.get("navbarRef.html", function(data){
-              $("#nav-placeholder").replaceWith(data);
+        <script><!-- removed $ in front of .get and (navplaceholder)-->
+          .get("navbarRef.html", function(data){
+              ("#nav-placeholder").replaceWith(data);
           });
         </script>
 
