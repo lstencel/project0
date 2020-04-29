@@ -11,15 +11,22 @@ h2 {
 
 }
 
-p {
+#contactHref {
 
-        color: red;
+        text-decoration: underline;
+        color: white;
 
 }
+
+#contactbody {}
 
 body {
 
         /*border-top-style: double;*/
+        background-image: url(jtreebackground.jpeg);
+        background-size: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
         background-color: #08363B;
         color: white;
         text-align: center;
