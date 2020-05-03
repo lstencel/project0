@@ -1,0 +1,67 @@
+h2, h1 {
+  color: white;
+  text-align: center;
+}
+
+div {
+  color: white;
+}
+div p {
+  font-size: 1vw;
+}
+div ol {
+  font-size: 1.1vw;
+}
+div ul {
+  font-size: 1.2vw;
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+h2 {
+  font-size: 2.5vw;
+}
+
+#contactHref {
+  text-decoration: underline;
+  color: white;
+}
+
+#aboutMeContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#aboutMeContainerDiv {
+  font-size: 1.75vw;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 38%;
+  align-self: center;
+  align-items: center;
+  justify: center;
+  justify-content: center;
+}
+
+body {
+  /*border-top-style: double;*/
+  background-image: url(jtreebackground5.jpeg);
+  background-size: 100%;
+  /*background-position: top;*/
+  background-repeat: no-repeat;
+  background-color: #08363B;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=lukestyles2.css.map */
