@@ -1,3 +1,9 @@
+/*
+Software Engineer: Luke Stencel
+Date: 5/1/2020
+Description: Stylesheet for my website,
+learning to code better during the global pandemic.
+*/
 h2, h1 {
   color: white;
   text-align: center;
@@ -51,7 +57,7 @@ h2 {
 body {
   /*border-top-style: double;*/
   background-image: url(jtreebackground5.jpeg);
-  background-size: 100%;
+  background-size: 100vw;
   /*background-position: top;*/
   background-repeat: no-repeat;
   background-color: #08363B;
@@ -59,9 +65,26 @@ body {
   text-align: center;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.carousel {
+  width: 85vw;
+  height: 70vh;
+  margin: auto;
+}
+
+.carousel-inner {
+  width: 80%;
+  height: 100%;
+  margin: auto;
 }
 
 /*# sourceMappingURL=lukestyles2.css.map */
