@@ -72,7 +72,7 @@ h2 {
 body {
         /*border-top-style: double;*/
         background-image: url(jtreebackground5.jpeg);
-        background-size: 100%;
+        background-size: 100vw;
         /*background-position: top;*/
         background-repeat: no-repeat;
         background-color: #08363B;
@@ -84,6 +84,11 @@ table {
 
 }
 
+.center {
+        margin-left: auto;
+        margin-right: auto;
+}
+
 .container {
         display: flex;
         flex-wrap: wrap;
@@ -91,4 +96,16 @@ table {
 
 .container > div {
 
+}
+
+.carousel {
+        width: 85%;
+        height: 70%;
+        margin: auto;
+}
+
+.carousel-inner {
+        width: 80%;
+        height: 100%;
+        margin: auto;
 }
