@@ -21,15 +21,16 @@ learning to code better during the global pandemic.
 */
 
 
-$mainfontcolor: white;
+$mainFontColor: white;
+$mainBorderColor: #d4b64a;
 
 %heading {
-        color: $mainfontcolor;
+        color: $mainFontColor;
         text-align: center;
 }
 
 div{
-        color: $mainfontcolor;
+        color: $mainFontColor;
 
         p {
           font-size: 1vw;
@@ -57,7 +58,7 @@ h2 {
 
 #contactHref {
         text-decoration: underline;
-        color: $mainfontcolor;
+        color: $mainFontColor;
 }
 
 #contactbody {
@@ -90,7 +91,7 @@ body {
         /*background-position: top;*/
         background-repeat: no-repeat;
         background-color: #08363B;
-        color: $mainfontcolor;
+        color: $mainFontColor;
         text-align: center;
 
         // Extra small devices (portrait phones, less than 576px)
@@ -120,7 +121,19 @@ body {
 }
 
 table {
+        border: 5px solid $mainBorderColor;
+        border-collapse: collapse;
+        width: 70%;
+}
 
+th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+}
+
+th {
+        background-color: rgba(53,70,70,0.5);
 }
 
 .center {
@@ -132,7 +145,7 @@ table {
 .photoBorder {
         border-width: 5px;
         border-style: solid;
-        border-color: #d4b64a;
+        border-color: $mainBorderColor;
 
 }
 

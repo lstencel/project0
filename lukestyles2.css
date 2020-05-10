@@ -104,6 +104,22 @@ body {
   }
 }
 
+table {
+  border: 5px solid #d4b64a;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: rgba(53, 70, 70, 0.5);
+}
+
 .center {
   margin-top: auto;
   margin-left: auto;
