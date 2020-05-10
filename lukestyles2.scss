@@ -121,13 +121,13 @@ body {
 }
 
 table {
-        border: 5px solid $mainBorderColor;
+        border: 3.5px solid $mainBorderColor;
         border-collapse: collapse;
         width: 70%;
 }
 
 th, td {
-        border: 1px solid black;
+        border: 1.5px solid $mainBorderColor;
         padding: 5px;
         text-align: center;
 }
