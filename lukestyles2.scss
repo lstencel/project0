@@ -3,6 +3,21 @@ Software Engineer: Luke Stencel
 Date: 5/1/2020
 Description: Stylesheet for my website,
 learning to code better during the global pandemic.
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
 */
 
 
@@ -72,12 +87,36 @@ h2 {
 body {
         /*border-top-style: double;*/
         background-image: url(jtreebackground5.jpeg);
-        background-size: 100vw;
         /*background-position: top;*/
         background-repeat: no-repeat;
         background-color: #08363B;
         color: $mainfontcolor;
         text-align: center;
+
+        // Extra small devices (portrait phones, less than 576px)
+        @media (max-width: 575.98px) {
+          background-size: 150vh;
+        }
+
+        // Small devices (landscape phones, 576px and up)
+        @media (min-width: 576px) and (max-width: 767.98px) {
+          background-size: 150vh;
+        }
+
+        // Medium devices (tablets, 768px and up)
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          background-size: 150vh;
+        }
+
+        // Large devices (desktops, 992px and up)
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          background-size: 110vw;
+        }
+
+        // Extra large devices (large desktops, 1200px and up)
+        @media (min-width: 1200px) {
+          background-size: 100vw;
+        }
 }
 
 table {
@@ -85,8 +124,16 @@ table {
 }
 
 .center {
+        margin-top: auto;
         margin-left: auto;
         margin-right: auto;
+}
+
+.photoBorder {
+        border-width: 5px;
+        border-style: solid;
+        border-color: #d4b64a;
+
 }
 
 .container {

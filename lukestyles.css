@@ -1,57 +1,97 @@
+/*
+Software Engineer: Luke Stencel
+Date: 5/1/2020
+Description: Stylesheet for my website,
+learning to code better during the global pandemic.
+*/
+h2, h1 {
+  color: white;
+  text-align: center;
+}
+
+div {
+  color: white;
+}
+div p {
+  font-size: 1vw;
+}
+div ol {
+  font-size: 1.1vw;
+}
+div ul {
+  font-size: 1.2vw;
+}
+
 h1 {
-        font-size: 4vw;
-        color: white;
-        text-align: center;
+  font-size: 4vw;
 }
 
 h2 {
-        font-size: 2.5vw;
-        color: white;
-        text-align: center;
-
+  font-size: 2.5vw;
 }
 
 #contactHref {
-
-        text-decoration: underline;
-        color: white;
-
+  text-decoration: underline;
+  color: white;
 }
 
-#contactbody {}
+#aboutMeContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#aboutMeContainerDiv {
+  font-size: 1.75vw;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 38%;
+  align-self: center;
+  align-items: center;
+  justify: center;
+  justify-content: center;
+}
 
 body {
-
-        /*border-top-style: double;*/
-        background-image: url(jtreebackground5.jpeg);
-        background-size: 100%;
-        /*background-position: top;*/
-        background-repeat: no-repeat;
-        background-color: #08363B;
-        color: white;
-        text-align: center;
+  /*border-top-style: double;*/
+  background-image: url(jtreebackground5.jpeg);
+  background-size: 100vh;
+  /*background-position: top;*/
+  background-repeat: no-repeat;
+  background-color: #08363B;
+  color: white;
+  text-align: center;
 }
 
-table {
+.center {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-
+.photoBorder {
+  border-width: 5px;
+  border-style: solid;
+  border-color: #d4b64a;
 }
 
 .container {
-        display: flex;
-        flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.container > div {
-        font-size: 1.75vw;
-        margin-right: 5%;
-        margin-left: 5%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        padding: 5px;
-        width: 38%;
-        align-self: center;
-        align-items: center;
-        justify: center;
-        justify-content: center;
+.carousel {
+  width: 85%;
+  height: 70%;
+  margin: auto;
 }
+
+.carousel-inner {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+/*# sourceMappingURL=lukestyles.css.map */
