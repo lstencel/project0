@@ -50,6 +50,17 @@ h2 {
   color: white;
 }
 
+#indexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: large;
+  align-self: center;
+  align-items: center;
+  justify: center;
+  justify-content: center;
+  width: 50%;
+}
+
 #aboutMeContainer {
   display: flex;
   flex-wrap: wrap;
@@ -152,7 +163,7 @@ th {
 }
 
 .carousel-inner {
-  width: 80%;
+  width: 75%;
   height: 100%;
   margin: auto;
 }
